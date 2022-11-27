@@ -191,6 +191,7 @@ view {
   text-align: center;
   font-weight: 700;
   max-width: calc(100vw - 2 * var(--right));
+  cursor: pointer; //Let Safari response for double-tap event 
 }
 
 .weui-navigation-bar__inner .weui-navigation-bar__center * {
